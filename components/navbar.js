@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <div className=" flex ">
+    <div className=" flex justify-between ">
       <div className=" text-white text-3xl ">AjieSAW</div>
       <ul className=" flex text-white items-center ">
         <li>Home</li>
