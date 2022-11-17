@@ -8,6 +8,7 @@ export default function Navbar() {
         <li>Photography</li>
         <li>Programming</li>
       </ul>
+      <div className=" flex text-white items-center ">Search</div>
     </div>
   )
 }
