@@ -8,7 +8,7 @@ export default function Navbar() {
         <button className=" hover:text-indigo-500 duration-100 ">Photography</button>
         <button className=" hover:text-indigo-500 duration-100 ">Programming</button>
       </ul>
-      <label className=' flex gap-x-1 '>
+      <label className=' flex gap-x-1 items-center '>
         <input
           type='text'
           placeholder='Search...'
