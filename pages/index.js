@@ -10,13 +10,14 @@ export default function Home() {
         <link rel="icon" href="https://cdn.icon-icons.com/icons2/1447/PNG/512/32408sushi_98892.png" />
       </Head>
 
+      <Navbar />
+
       <main>
-        <Navbar />
+        
       </main>
 
-      <footer>
-        
-      </footer>
+      
+
     </div>
   )
 }
