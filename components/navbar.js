@@ -21,7 +21,7 @@ export default function Navbar() {
         </label>
       </div>
       <div>
-        <ul className=" flex sm:hidden text-white items-center px-10 py-5 gap-x-5 md:gap-x-10 justify-between ">
+        <ul className=" flex sm:hidden text-white items-center px-5 py-5 gap-x-5 md:gap-x-10 justify-between ">
           <button className=" hover:text-indigo-500 duration-100 ">Music</button>
           <button className=" hover:text-indigo-500 duration-100 ">Photography</button>
           <button className=" hover:text-indigo-500 duration-100 ">Programming</button>
