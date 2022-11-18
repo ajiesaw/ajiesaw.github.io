@@ -1,8 +1,11 @@
 export default function Navbar() {
   return (
     <div className=" flex justify-between ">
-      <button className=" text-white text-3xl ">AjieSAW</button>
-      <ul className=" hidden sm:flex text-white items-center px-10 gap-x-5 md:gap-x-10 justify-center ">
+      <div className=" text-white text-3xl ">
+        <button className=" sm:hidden pr-3 ">⌘</button>
+        <button>AjieSAW</button>
+      </div>
+      <ul className=" hidden sm:flex text-white items-center px-10 gap-x-5 md:gap-x-10 ">
         <button className=" hover:text-indigo-500 duration-100 hidden md:flex ">Home</button>
         <button className=" hover:text-indigo-500 duration-100 ">Music</button>
         <button className=" hover:text-indigo-500 duration-100 ">Photography</button>
